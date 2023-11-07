@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+</head>
+<body>
+<div>
+    <button class="theme-button">Day/Night</button>
+    <a href="#"></a>
+</div>
+<div class="form-container">
+    <h1>Registration form</h1>
+    <form action="/reg-data" id="input-form" method="post">
+        <div class="form-input" id="name-input-container">
+            <label for="user-name-input">Enter your name</label>
+            <input id="user-name-input" type="text" placeholder="Name" name="username"/>
+        </div>
+        <div class="form-input" id="pass-input-container">
+            <label for="password-input">Enter your password</label>
+            <input type="password" id="password-input" placeholder="min 10 characters" name="password"/>
+        </div>
+        <div class="form-input">
+            <label for="user-type input">Enter your user type</label>
+            <select id="user-type input">
+                <option value="Admin">Admin</option>
+                <option value="Moderator">Moderator</option>
+                <option value="User">User</option>
+            </select>
+        </div>
+        <button id="submit-input">Submit button</button>
+    </form>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>

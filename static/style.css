@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, cornflowerblue, lightgreen);
+    color: black;
+}
+a {
+    color: #0033cc;
+}
+body.dark-theme {
+    color: white;
+    background: linear-gradient(to right, black, darkslateblue);
+}
+body.dark-theme a {
+    color: #809fff;
+}
+.input-error{
+    border-color: red;
+}
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.theme-button{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: lightskyblue;
+}
