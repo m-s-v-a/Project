@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 10vw;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+    align-items: center;
+    background: transparent 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
+}
+
+.regularCard {
+    width: 800px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redCard {
+    width: 800px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FF7373 0%, #ff0000 100%);
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     },
     {
         path:"/",
-        element: <div></div>,
+        element: <Asteroids/>,
     },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

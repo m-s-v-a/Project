@@ -1,0 +1,55 @@
+.markup {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    align-self: center;
+    flex-wrap: nowrap;
+    grid-gap: 5px;
+}
+
+.listOfAsteroids {
+    align-self: start;
+}
+
+.margin {
+    width: 3%;
+}
+
+.topChoices {
+    width: 920px;
+    display: flex;
+    flex-direction: row;
+}
+
+.topBorder {
+    width: 920px;
+    height: 1px;
+    background-color: #000000;
+}
+
+.showDangerousOnly {
+    width: 80vw;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.distanceMode {
+    width: 80vw;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.gap {
+    height: 1vw;
+}
