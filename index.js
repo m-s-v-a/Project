@@ -8,10 +8,8 @@ app.use(express.json())
 app.use(express.static('static'));
 app.use(express.urlencoded())
 
+
 app.get('*', (req, res) => {
-    res.send()
-})
-app.get('/registration', (req, res) => {
     res.sendFile("index.html",{root: path.join(__dirname, "./static")})
 })
 app.post('/reg-data',(req, res)=>{
